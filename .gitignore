@@ -1,6 +1,7 @@
 ess
 license.txt
-readme.html
+.htaccess
+.DS_Store
 
 wp-admin
 wp-content/languages
