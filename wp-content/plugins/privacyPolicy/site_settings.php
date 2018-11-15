@@ -21,14 +21,8 @@ class showPrivacyPoricy {
       check_admin_referer('shoptions');
       $opt = $_POST['showtext_options'];
       update_option('showtext_options', $opt);
-      ?>
-      <div class="updated fade">
-        <p>
-          <strong><?php _e('Options saved.'); ?></strong>
-        </p>
-      </div>
-    <?php
-      }
+      ?><div class="updated fade"><p><strong><?php _e('Options saved.'); ?></strong></p></div><?php
+    }
     ?>
     <div class="wrap">
     <div id="icon-options-general" class="icon32"><br /></div><h2>個人情報保護方針編集</h2>
@@ -41,12 +35,13 @@ class showPrivacyPoricy {
         <table class="form-table">
           <tr valign="top">
             <th scope="row"><label for="inputtext">テキスト</label></th>
-            <td><input name="showtext_options[text]" type="text" id="inputtext" value="<?php  echo $show_text ?>" class="regular-text" /></td>
+            <td><input name="showtext_options[text]" type="text" id="inputtext" value="<?php echo $show_text ?>" class="regular-text" /></td>
           </tr>
         </table>
         <p class="submit"><input type="submit" name="Submit" class="button-primary" value="変更を保存" /></p>
       </form>
     <!-- /.wrap --></div>
+   
     <?php
   }
 }
