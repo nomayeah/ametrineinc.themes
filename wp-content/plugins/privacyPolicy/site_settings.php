@@ -41,7 +41,7 @@ class showPrivacyPoricy {
         <p class="submit"><input type="submit" name="Submit" class="button-primary" value="変更を保存" /></p>
       </form>
     <!-- /.wrap --></div>
-   
+    <?php echo esc_html($showtext->get_text()); ?>
     <?php
   }
 }
