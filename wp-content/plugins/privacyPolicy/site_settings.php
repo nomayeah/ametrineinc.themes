@@ -41,7 +41,7 @@ class showPrivacyPoricy {
         <table class="form-table">
           <tr valign="top">
             <th scope="row"><label for="inputtext">テキスト</label></th>
-           
+            <td><input name="showtext_options[text]" type="text" id="inputtext" value="<?php  echo $show_text ?>" class="regular-text" /></td>
           </tr>
         </table>
         <p class="submit"><input type="submit" name="Submit" class="button-primary" value="変更を保存" /></p>
