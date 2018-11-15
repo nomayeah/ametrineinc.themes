@@ -16,7 +16,22 @@ class showPrivacyPoricy {
     add_menu_page('個人情報保護方針編集', '個人情報保護方針編集', 'level_8', __FILE__, array($this,'show_text_option_page'), '', 26);
   }
   function show_text_option_page() {
-    
+    //$_POST['showtext_options'])があったら保存
+    if ( isset($_POST['showtext_options'])) {
+      check_admin_referer('shoptions');
+      $opt = $_POST['showtext_options'];
+      update_option('showtext_options', $opt);
+      ?>
+      <div class="updated fade">
+        <p>
+          <strong><?php _e('Options saved.'); ?></strong>
+        </p>
+      </div>
+    <?php
+      }
+    ?>
+
+    <?php
   }
 }
 $showtext = new showPrivacyPoricy;
