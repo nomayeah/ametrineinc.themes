@@ -44,4 +44,4 @@ class showPrivacyPoricy {
     <?php
   }
 }
-$stext = new showPrivacyPoricy;
+$showtext = new showPrivacyPoricy;
