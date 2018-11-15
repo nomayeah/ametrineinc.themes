@@ -5,8 +5,6 @@ license.txt
 
 wp-admin
 wp-content/languages
-wp-content/plugins
-!wp-content/plugins/privacyPolicy
 wp-content/themes/twentyfifteen
 wp-content/themes/twentyseventeen
 wp-content/themes/twentysixteen
