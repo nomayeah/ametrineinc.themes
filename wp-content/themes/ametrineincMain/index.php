@@ -8,7 +8,10 @@
   
 </header>
 <main>
-  <img src="/test/wp-content/uploads/2018/11/bg_img.png" alt="">
+<div class="loop_css">
+  <img src="/test/wp-content/uploads/2018/11/bg_img.png"><img src="/test/wp-content/uploads/2018/11/bg_img.png">
+</div>
+
 </main>
 
 <?php get_footer(); ?>
