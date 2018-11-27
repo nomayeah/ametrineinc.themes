@@ -751,8 +751,14 @@ observer.observe(document.querySelector('.js-scrollLogo__parts1'));
 $(function(){
   $(document).ready(function(){
     var wH = innerHeight,
-        target1 = $('.js-scrollLogo__parts1');
+        topH = 75,
+        bottomH =  wH - Math.floor($('.js-scrollLogo__parts1 img').innerHeight()) - topH,
+        target1 = $('.js-sectionLogo__partsTop'),
+        target2 = $('.js-scrollLogo__parts1'),
+        target3 = $('.js-sectionLogo__partsBottom');
 
-    $(target1).css('height',wH+'px');
+    $(target1).css('height',topH+'px');
+    $(target2).css('height',wH+'px');
+    $(target3).css('height',bottomH+'px');
   });
 });

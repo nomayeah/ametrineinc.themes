@@ -116,3 +116,8 @@ img {
   left: 0;
   z-index: 1;
 }
+
+.js-sectionLogo__partsTop,.js-sectionLogo__partsBottom  {
+  background-color: #fff;
+  width: 100%;
+}
