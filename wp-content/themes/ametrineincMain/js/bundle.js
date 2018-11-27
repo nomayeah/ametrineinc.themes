@@ -732,14 +732,20 @@
   }(window, document));
 
 
-// IntersectionObserverオブジェクトを作成する。
-// 交差時に実行するコールバック関数を渡す。
 const observer = new IntersectionObserver((entries) => {
   for(const e of entries) {
+    var flag = e.isIntersecting,
+        target1 = $('.js-scrollLogo__parts1'),
+        target2 = $('.js-scrollLogo__parts2');
+    if(flag == true) {
+      $(target2).addClass('active');
+    } else {
+      $(target2).removeClass('active');
+    }
     console.log(e.isIntersecting);
   }
 });
-// 監視したい要素をobserveする。
+
 observer.observe(document.querySelector('.js-scrollLogo__parts1'));
 
 $(function(){
