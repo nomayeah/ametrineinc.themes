@@ -736,7 +736,7 @@
 // 交差時に実行するコールバック関数を渡す。
 const observer = new IntersectionObserver((entries) => {
   for(const e of entries) {
-    console.log(e);
+    console.log(e.isIntersecting);
   }
 });
 // 監視したい要素をobserveする。
