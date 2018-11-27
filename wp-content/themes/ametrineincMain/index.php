@@ -1,13 +1,13 @@
 
 <?php get_header(); ?>
 
-<section>
+<section class="js-scrollLogo__parts1">
   <img src="/test/wp-content/uploads/2018/11/testlogo.png" alt="">
 </section>
 <header>
   
 </header>
-<main>
+<main class="js-scrollLogo__parts2">
 <div class="loop_css">
   <img src="/test/wp-content/uploads/2018/11/bg_img.png"><img src="/test/wp-content/uploads/2018/11/bg_img.png">
 </div>
