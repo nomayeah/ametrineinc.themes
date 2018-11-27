@@ -23,7 +23,7 @@ img {
   display: -webkit-flex;
   display: flex;
   width: 100vw;
-  height: 300px;
+  height: 500px;
   left: 50%;
   margin-left: -50vw;
   overflow: hidden;
@@ -108,9 +108,11 @@ img {
 }
 
 .js-scrollLogo__parts2 {
+  width: 100%;
+}
+.js-scrollLogo__parts2.active {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 1;
 }
