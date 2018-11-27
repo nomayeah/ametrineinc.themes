@@ -99,3 +99,18 @@ img {
     transform: translateX(-200%);
   }
 }
+
+
+.js-scrollLogo__parts1 {
+  background-color: transparent;
+  position: relative;
+  z-index: 20;
+}
+
+.js-scrollLogo__parts2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
