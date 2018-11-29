@@ -27,11 +27,11 @@ class showPrivacyPoricy {
     <div class="wrap">
     <div id="icon-options-general" class="icon32"><br /></div><h2>個人情報保護方針編集</h2>
       <form action="" method="post">
-        <?php
+      <?php
         wp_nonce_field('shoptions');
         $opt = get_option('showtext_options');
         $show_text = isset($opt['text']) ? $opt['text']: null;
-        ?> 
+      ?> 
         <table class="form-table">
           <tr valign="top">
             <th scope="row"><label for="inputtext">テキスト</label></th>
@@ -45,4 +45,7 @@ class showPrivacyPoricy {
     <?php
   }
 }
+
 $showtext = new showPrivacyPoricy;
+
+var_dump($showtext);
