@@ -21,7 +21,8 @@ class showPrivacyPoricy {
       check_admin_referer('shoptions');
       $opt = $_POST['showtext_options'];
       update_option('showtext_options', $opt);
-      ?><div class="updated fade"><p><strong><?php _e($opt); ?></strong></p></div><?php
+      ?><div class="updated fade"><p><strong><?php _e($opt); ?></strong></p></div>
+        <div class="updated fade"><p><strong><?php var_dump($opt); ?></strong></p></div><?php
     }
     ?>
     <div class="wrap">
