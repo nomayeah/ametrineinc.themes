@@ -10,7 +10,7 @@
 <main class="js-scrollLogo__parts2">
   <div class="loop-css">
     <img src="/test/wp-content/uploads/2018/11/bg_img.png"><img src="/test/wp-content/uploads/2018/11/bg_img.png">
-    <div class="loop-message" style="opacity: 0;"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
+    <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
   <section class="top-sec__standard">
