@@ -7,117 +7,13 @@ Author: Noma
 Author URI: ametrine-inc.com
 */
 
-
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
-img {
-  display: block;
-  width: 100%;
-}
-
-.loop_css {
-  position: relative;
-  display: -webkit-flex;
-  display: flex;
-  width: 100vw;
-  height: 500px;
-  left: 50%;
-  margin-left: -50vw;
-  overflow: hidden;
-}
-
-.loop_css img {
-  width: auto;
-  height: 100%;
-}
-
-.loop_css img:first-child {
-  -webkit-animation: loop 50s -25s linear infinite;
-  animation: loop 50s -25s linear infinite;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  will-change: transform;
-}
-
-.loop_css img + img {
-  -webkit-animation: loop2 50s  linear infinite;
-  animation: loop2 50s linear infinite;
-}
-
-/*アニメーション*/
-@-webkit-keyframes loop {
-  0% {
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes loop {
-  0% {
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
-
-@-webkit-keyframes loop2 {
-  0% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-200%);
-    -ms-transform: translateX(-200%);
-    transform: translateX(-200%);
-  }
-}
-
-@keyframes loop2 {
-  0% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-200%);
-    -ms-transform: translateX(-200%);
-    transform: translateX(-200%);
-  }
-}
-
-
-.js-scrollLogo__parts1 {
-  background-color: transparent;
-  position: relative;
-  z-index: 20;
-}
-
-.js-scrollLogo__parts2 {
-  width: 100%;
-}
-.js-scrollLogo__parts2.active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.js-sectionLogo__partsTop,.js-sectionLogo__partsBottom  {
-  background-color: #fff;
-  width: 100%;
+img{
+  width:100%;
+  display:block;
 }
