@@ -50,9 +50,9 @@
     </ul>
   </section>
 
-  <section>
+  <section class="top-sec__standard co">
     <h2><?php $page_id = 22; $content = get_page($page_id); echo $content->post_title; ?></h2>
-    <div class="top-sec__coBlock">
+    <div class="top-sec__block">
       <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
     </div>
   </section>
