@@ -17,7 +17,7 @@
     <h2>セクションタイトル</h2>
     <div class="top-sec__block">
       <h3>タイトルタイトル</h3>
-      <div clas="top-sec__img"><img src="#" alt=""></div>
+      <div clas="top-sec__img"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
       テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
       <div class="top-sec__btn"><a href="#"><span></span></a></div>
     </div>
