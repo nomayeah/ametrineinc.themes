@@ -13,7 +13,7 @@ function footerScripts() {
   wp_enqueue_script( 
     'bundle',
     get_template_directory_uri() . '/js/bundle.js',
-    array( 'bundle' ),
+    array( 'jquery.3.0.0' ),
     false,
     true
   );
