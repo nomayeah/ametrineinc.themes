@@ -17,9 +17,9 @@
     <h2>セクションタイトル</h2>
     <div class="top-sec__block">
       <h3>タイトルタイトル</h3>
-      <div class="top-sec__img"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__caption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__btn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
+      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
     </div>
   </section>
 
@@ -27,9 +27,9 @@
     <h2>セクションタイトル</h2>
     <div class="top-sec__block">
       <h3>タイトルタイトル</h3>
-      <div class="top-sec__img"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__caption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__btn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
+      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
     </div>
   </section>
 
@@ -37,14 +37,14 @@
     <ul class="top-sec__list">
       <li>
         <a href="http://">
-          <div><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-          <div>テキストテキスト</div>
+          <div class="top-sec__listImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+          <div class="top-sec__listCaption">テキストテキスト</div>
         </a>
       </li>
       <li>
         <a href="http://">
-          <div><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-          <div>テキストテキスト</div>
+          <div class="top-sec__listImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+          <div class="top-sec__listCaption">テキストテキスト</div>
         </a>
       </li>
     </ul>
@@ -54,9 +54,9 @@
     <h2><?php $page_id = 4; $content = get_page($page_id); echo $content->post_title; ?></h2>
     <div class="top-sec__block">
       <h3>タイトルタイトル</h3>
-      <div class="top-sec__img"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__caption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__btn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
+      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
     </div>
   </section> -->
 </main>
