@@ -4,19 +4,19 @@ add_filter('show_admin_bar', '__return_false');
 // js読み込み
 function footerScripts() {
   wp_enqueue_script( 
-    'bundle', 
-    get_template_directory_uri() . '/dist/bundle.js',
+    'jquery.3.0.0', 
+    get_template_directory_uri() . '/dist/jquery.3.0.0.js',
     array(),
     false,
     true
   );
-  // wp_enqueue_script( 
-  //   'test', 
-  //   get_template_directory_uri() . '/js/test.js',
-  //   array( 'test' ),
-  //   false,
-  //   true
-  // );
+  wp_enqueue_script( 
+    'bundle',
+    get_template_directory_uri() . '/js/bundle.js',
+    array( 'bundle' ),
+    false,
+    true
+  );
 }
 add_action( 'wp_enqueue_scripts', 'footerScripts' );
 
