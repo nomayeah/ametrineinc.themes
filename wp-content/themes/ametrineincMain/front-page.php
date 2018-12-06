@@ -22,6 +22,14 @@
       <div class="top-sec__btn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
     </div>
   </section>
+
+  <section>
+    <?php
+      $page_id = 4; // 固定ページIDを入力
+      $content = get_page($page_id);
+      echo $content->post_content;
+    ?>
+  </section>
 </main>
 
 <?php get_footer(); ?>
