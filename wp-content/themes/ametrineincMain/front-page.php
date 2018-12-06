@@ -50,15 +50,12 @@
     </ul>
   </section>
 
-  <!-- <section>
-    <h2><?php $page_id = 4; $content = get_page($page_id); echo $content->post_title; ?></h2>
-    <div class="top-sec__block">
-      <h3>タイトルタイトル</h3>
-      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
+  <section>
+    <h2><?php $page_id = 22; $content = get_page($page_id); echo $content->post_title; ?></h2>
+    <div class="top-sec__coBlock">
+      <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
     </div>
-  </section> -->
+  </section>
 </main>
 
 <?php get_footer(); ?>
