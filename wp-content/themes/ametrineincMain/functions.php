@@ -5,7 +5,7 @@ add_filter('show_admin_bar', '__return_false');
 function footerScripts() {
   wp_enqueue_script( 
     'jquery.3.0.0', 
-    get_template_directory_uri() . '/dist/jquery.3.0.0.js',
+    get_template_directory_uri() . '/dist/jquery3.0.0.js',
     array(),
     false,
     true
