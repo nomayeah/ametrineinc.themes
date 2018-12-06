@@ -10,6 +10,8 @@ wp-content/themes/twentyseventeen
 wp-content/themes/twentysixteen
 !/wp-content/themes/ametrineincMain/index.php
 /wp-content/themes/ametrineincMain/dist/index.html
+!/wp-content/themes/ametrineincMain/dist/bundle.js
+!/wp-content/themes/ametrineincMain/dist/style.css
 wp-includes
 
 wp-config-sample.php
