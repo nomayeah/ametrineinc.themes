@@ -65,10 +65,12 @@
   </section>
 
   <section class="top-sec__standard">
-    <?php  ?>
-    <?php echo do_shortcode(
-      '$page_id = 14; $content = get_page($page_id); echo $post->post_content;'
-    ); ?>
+    <?php
+      $page_id = 14;
+      $content = get_page($page_id);
+      echo do_shortcode(
+        $post->post_content
+      ); ?>
   </section>
 </main>
 
