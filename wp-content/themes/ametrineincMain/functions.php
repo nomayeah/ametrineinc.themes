@@ -7,6 +7,7 @@ function footerScripts() {
     'jquery.3.0.0', 
     get_template_directory_uri() . '/dist/jquery3.0.0.js',
     array(),
+    date('YmdGis', filemtime( get_template_directory_uri() . '/dist/jquery3.0.0.js' )),
     false,
     true
   );
