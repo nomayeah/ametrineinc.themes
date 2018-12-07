@@ -70,7 +70,7 @@
       $content = get_page($page_id);
       echo do_shortcode(
         $post->post_content
-      ); ?>
+    ); ?>
   </section>
 </main>
 
