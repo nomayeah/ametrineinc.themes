@@ -65,7 +65,10 @@
   </section>
 
   <section class="top-sec__standard">
-    <?php $page_id = 14; $content = get_page($page_id); echo mb_substr(strip_tags($post-> post_content), 0, 120); ?>
+    <?php  ?>
+    <?php echo do_shortcode(
+      '$page_id = 14; $content = get_page($page_id); echo $post->post_content;'
+    ); ?>
   </section>
 </main>
 
