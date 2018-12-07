@@ -14,9 +14,16 @@
   </div>
 
   <section class="top-sec__standard">
-    <h2>セクションタイトル</h2>
+    <h2>セクションタイトルだよ</h2>
     <div class="top-sec__block">
-      <h3>タイトルタイトル</h3>
+      <h3>さぶなタイトルです</h3>
+      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
+      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
+    </div>
+
+    <div class="top-sec__block">
+      <h3>さぶなタイトルです</h3>
       <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
       <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
       <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
@@ -24,9 +31,9 @@
   </section>
 
   <section class="top-sec__standard">
-    <h2>セクションタイトル</h2>
+    <h2>セクションタイトル２こめ</h2>
     <div class="top-sec__block">
-      <h3>タイトルタイトル</h3>
+      <h3>さぶなタイトルみ</h3>
       <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
       <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
       <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
@@ -55,6 +62,10 @@
     <div class="top-sec__block">
       <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
     </div>
+  </section>
+
+  <section class="top-sec__standard">
+    <?php $page_id = 14; $content = get_page($page_id); echo $content->post_content; ?>
   </section>
 </main>
 
