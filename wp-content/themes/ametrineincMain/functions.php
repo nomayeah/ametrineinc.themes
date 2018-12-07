@@ -7,7 +7,7 @@ function footerScripts() {
     'jquery.3.0.0', 
     get_template_directory_uri() . '/dist/jquery3.0.0.js',
     array(),
-    date('Ymd', filemtime( get_template_directory_uri() . '/dist/jquery3.0.0.js' )),
+    date('YmdHis', filemtime( get_template_directory_uri() . '/dist/jquery3.0.0.js' )),
     false,
     true
   );
@@ -15,7 +15,7 @@ function footerScripts() {
     'bundle',
     get_template_directory_uri() . '/dist/bundle.js',
     array( 'jquery.3.0.0' ),
-    date('Ymd', filemtime( get_template_directory_uri() . '/dist/bundle.js' )),
+    date('YmdHis', filemtime( get_template_directory_uri() . '/dist/bundle.js' )),
     false,
     true
   );
@@ -28,7 +28,7 @@ function styleCss() {
     'main-customStyle',
     get_template_directory_uri() . '/dist/style.css',
     array(),
-    date('Ymd', filemtime( get_template_directory_uri() . '/dist/style.css' ))
+    date('YmdHis', filemtime( get_template_directory_uri() . '/dist/style.css' ))
   );
 }
 add_action( 'wp_enqueue_scripts', 'styleCss' );
