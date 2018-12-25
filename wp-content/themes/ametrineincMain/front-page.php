@@ -17,49 +17,9 @@
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
-  <section class="top-sec__standard">
-    <h2>セクションタイトルだよ</h2>
-    <div class="top-sec__block">
-      <h3>さぶなタイトルです</h3>
-      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
-    </div>
-
-    <div class="top-sec__block">
-      <h3>さぶなタイトルです</h3>
-      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
-    </div>
-  </section>
-
-  <section class="top-sec__standard">
-    <h2>セクションタイトル２こめ</h2>
-    <div class="top-sec__block">
-      <h3>さぶなタイトルみ</h3>
-      <div class="top-sec__blockImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-      <div class="top-sec__blockCaption">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-      <div class="top-sec__blockBtn"><a href="#"><img src="/test/wp-content/uploads/2018/12/test_btn1.png" alt=""></a></div>
-    </div>
-  </section>
-
-  <section class="top-sec__standard">
-    <ul class="top-sec__list">
-      <li>
-        <a href="http://">
-          <div class="top-sec__listImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-          <div class="top-sec__listCaption">テキストテキスト</div>
-        </a>
-      </li>
-      <li>
-        <a href="http://">
-          <div class="top-sec__listImg"><img src="/test/wp-content/uploads/2018/12/test_topimg1.png" alt=""></div>
-          <div class="top-sec__listCaption">テキストテキスト</div>
-        </a>
-      </li>
-    </ul>
-  </section>
+  <h2><?php $page_id = 36; $content = get_page($page_id); echo $content->post_title; ?></h2>
+    
+  <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
 
   <section class="top-sec__standard co">
     <h2><?php $page_id = 22; $content = get_page($page_id); echo $content->post_title; ?></h2>
