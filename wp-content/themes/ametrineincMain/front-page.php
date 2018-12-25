@@ -3,7 +3,7 @@
 
 <header class="js-scrollLogo__parts1">
   <div class="js-sectionLogo__partsTop"></div>
-  <h1><img src="/test/wp-content/uploads/2018/12/top.png" alt="Ametrine.incのサイトロゴ"></h1>
+  <h1 class="top-logo"><img src="/test/wp-content/uploads/2018/12/top.png" alt="Ametrine.incのサイトロゴ"></h1>
   <div class="js-sectionLogo__partsBottom"></div>
 </header>
 
