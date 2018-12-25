@@ -17,8 +17,7 @@
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
-  <h2><?php $page_id = 36; $content = get_page($page_id); echo $content->post_title; ?></h2>
-    
+  <h2 class="top-sec__title"><?php $page_id = 36; $content = get_page($page_id); echo $content->post_title; ?></h2> 
   <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
 
   <section class="top-sec__standard co">
