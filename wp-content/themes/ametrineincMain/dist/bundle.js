@@ -105,7 +105,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $(document).ready(function () {\n    var wH = innerHeight,\n        topH = 75,\n        bottomH = wH - Math.floor($('.js-scrollLogo__parts1 img').innerHeight()) - topH,\n        target1 = $('.js-sectionLogo__partsTop'),\n        target2 = $('.js-scrollLogo__parts1'),\n        target3 = $('.js-sectionLogo__partsBottom');\n    $(target1).css('height', topH + 'px');\n    $(target2).css('height', wH + 'px');\n    $(target3).css('height', bottomH + 'px');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/scrollLogo/_custom.js?");
+eval("$(function () {\n  $(document).ready(function () {\n    var wH = innerHeight,\n        topH = 75,\n        bottomH = wH - Math.floor($('.js-scrollLogo__parts1 img').innerHeight()) - topH,\n        target1 = $('.js-sectionLogo__partsTop'),\n        target2 = $('.js-scrollLogo__parts1'),\n        target3 = $('.js-sectionLogo__partsBottom'),\n        target4 = $('.js-sectionLogo__partsLeft'),\n        target5 = $('.js-sectionLogo__partsRight');\n    $(target1).css('height', topH + 'px');\n    $(target2).css('height', wH + 'px');\n    $(target3).css('height', bottomH + 'px');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/scrollLogo/_custom.js?");
 
 /***/ }),
 
