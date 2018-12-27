@@ -12,6 +12,10 @@
 </header>
 
 <main class="js-scrollLogo__parts2">
+  <div class="top-siteName">
+    <strong>AMETRINE</strong>
+  </div>
+
   <div class="loop-css">
     <img src="/test/wp-content/uploads/2018/11/bg_img.png"><img src="/test/wp-content/uploads/2018/11/bg_img.png">
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
