@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(this).toggleClass('action');\n    var link = document.getElementById('ul').children[0].getElementsByTagName('a')[0].getAttribute('href');\n    setTimeout(function () {\n      window.location.href = link;\n    }, 100);\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
+eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(this).toggleClass('action');\n    var link = document.getElementById('ul').children[0].getElementsByTagName('a')[0].getAttribute('href');\n    setTimeout(function () {\n      window.location.href = link;\n    }, 500);\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
 
 /***/ }),
 
