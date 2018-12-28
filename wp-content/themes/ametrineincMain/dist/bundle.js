@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(this).toggleClass('action');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
+eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(this).toggleClass('action');\n    console.log('action');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
 
 /***/ }),
 
