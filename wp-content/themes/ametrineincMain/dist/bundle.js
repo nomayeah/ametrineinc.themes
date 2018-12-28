@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/linkAction/mix.js":
+/*!**********************************!*\
+  !*** ./src/js/linkAction/mix.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(this).toggleClass('action');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -94,7 +105,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./linkAction/mix */ \"./src/js/linkAction/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_linkAction_mix__WEBPACK_IMPORTED_MODULE_2__);\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
@@ -105,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $(window).on('load resize', function () {\n    var wH = innerHeight,\n        wW = innerWidth,\n        topH = 75,\n        bottomH = wH - Math.floor($('.js-scrollLogo__parts1 img').innerHeight()) - topH,\n        lrW = (wW - Math.floor($('.js-scrollLogo__parts1 img').innerWidth())) / 2,\n        target1 = $('.js-sectionLogo__partsTop'),\n        target2 = $('.js-scrollLogo__parts1'),\n        target3 = $('.js-sectionLogo__partsBottom'),\n        target4 = $('.js-sectionLogo__partsLeft'),\n        target5 = $('.js-sectionLogo__partsRight');\n    $(target1).css('height', topH + 'px');\n    $(target2).css('height', wH + 'px');\n    $(target3).css('height', bottomH + 'px');\n    $(target4).css('width', lrW + 'px');\n    $(target5).css('width', lrW + 'px');\n  });\n  $(window).on('scroll', function () {\n    var wH = innerHeight,\n        siteNameBox = innerHeight - window.pageYOffset,\n        opacity = Math.floor(siteNameBox / 44 * Math.pow(10, 2)) / Math.pow(10, 2);\n\n    if (44 > siteNameBox && 0 < siteNameBox) {\n      $('header').css('opacity', opacity);\n    } else {\n      $('header').css('opacity', '1');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/scrollLogo/_custom.js?");
+eval("$(function () {\n  $(window).on('load resize', function () {\n    var wH = innerHeight,\n        wW = innerWidth,\n        topH = 75,\n        bottomH = wH - Math.floor($('.js-scrollLogo__parts1 img').innerHeight()) - topH,\n        lrW = (wW - Math.floor($('.js-scrollLogo__parts1 img').innerWidth())) / 2,\n        target1 = $('.js-sectionLogo__partsTop'),\n        target2 = $('.js-scrollLogo__parts1'),\n        target3 = $('.js-sectionLogo__partsBottom'),\n        target4 = $('.js-sectionLogo__partsLeft'),\n        target5 = $('.js-sectionLogo__partsRight');\n    $(target1).css('height', topH + 'px');\n    $(target2).css('height', wH + 'px');\n    $(target3).css('height', bottomH + 'px');\n    $(target4).css('width', lrW + 'px');\n    $(target5).css('width', lrW + 'px');\n  });\n  $(window).on('scroll', function () {\n    var wH = innerHeight,\n        siteNameBox = innerHeight - window.pageYOffset,\n        opacity = Math.floor(siteNameBox / 44 * Math.pow(10, 2)) / Math.pow(10, 2); // 小数点２位までopacityに代入\n\n    if (44 > siteNameBox && 0 < siteNameBox) {\n      $('header').css('opacity', opacity);\n    } else {\n      $('header').css('opacity', '1');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/scrollLogo/_custom.js?");
 
 /***/ }),
 
