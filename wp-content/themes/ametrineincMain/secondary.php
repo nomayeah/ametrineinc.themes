@@ -5,9 +5,14 @@
 get_header(); ?>
 <body>
 <div class="js-pageOpen"></div>
-<h1><?php the_title(); ?></h1>
 <section>
   <?php the_content(); ?>
 </section>
 </body>
+<?php
+  $page_id = 48;
+  $content = get_page($page_id);
+  echo do_shortcode(
+    $post->post_content
+); ?>
 <?php get_footer(); ?>
