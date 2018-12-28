@@ -32,3 +32,10 @@ function styleCss() {
   );
 }
 add_action( 'wp_enqueue_scripts', 'styleCss' );
+
+
+// コンタクトフォーム内内の画像を呼び出します。
+function the_required_image(){
+	return '<img src="http://ametrine.sakura.ne.jp/test/wp-content/uploads/2018/12/required.png" alt="必須" />';
+}
+wpcf7_add_shortcode("required_image","the_required_image");
