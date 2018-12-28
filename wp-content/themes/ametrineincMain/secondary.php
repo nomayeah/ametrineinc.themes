@@ -5,6 +5,9 @@
 get_header(); ?>
 <body>
 <div class="js-pageOpen"></div>
+<div class="top-siteName">
+  <strong>AMETRINE</strong>
+</div>
 <section>
   <?php the_content(); ?>
 </section>
