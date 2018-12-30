@@ -1,0 +1,19 @@
+/*
+Theme Name: AmetrineInc
+Theme URI: ametrine-inc.com
+Description: ametrine-inc.comのオリジナルテーマ
+Version: 1.1
+Author: Noma
+Author URI: ametrine-inc.com
+*/
+
+* {
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+img{
+  width:100%;
+  display:block;
+}
