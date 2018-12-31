@@ -105,7 +105,30 @@ eval("$(function () {\n  $('.js-linkAction').on('click', function () {\n    $(th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./linkAction/mix */ \"./src/js/linkAction/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_linkAction_mix__WEBPACK_IMPORTED_MODULE_2__);\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./linkAction/mix */ \"./src/js/linkAction/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_linkAction_mix__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pageOpen_mix__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pageOpen/mix */ \"./src/js/pageOpen/mix.js\");\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
+
+/***/ }),
+
+/***/ "./src/js/pageOpen/_pageOpen.js":
+/*!**************************************!*\
+  !*** ./src/js/pageOpen/_pageOpen.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(function () {\n  $(document).on('load', function () {\n    $('.js-pageOpen').addClass('js-open');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
+
+/***/ }),
+
+/***/ "./src/js/pageOpen/mix.js":
+/*!********************************!*\
+  !*** ./src/js/pageOpen/mix.js ***!
+  \********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageOpen__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_pageOpen */ \"./src/js/pageOpen/_pageOpen.js\");\n/* harmony import */ var _pageOpen__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pageOpen__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/js/pageOpen/mix.js?");
 
 /***/ }),
 

@@ -15,6 +15,7 @@ wp-content/themes/twentysixteen
 wp-includes
 
 wp-config-sample.php
+wp-config.php
 wp-cron.php
 wp-load.php
 wp-settings.php
