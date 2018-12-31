@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $(document).on('load', function () {\n    $('.js-pageOpen').addClass('js-open');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
+eval("$(function () {\n  $(window).on('load', function () {\n    $('.js-pageOpen').addClass('js-open');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
 
 /***/ }),
 
