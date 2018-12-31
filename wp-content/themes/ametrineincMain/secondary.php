@@ -4,7 +4,9 @@
  */
 get_header(); ?>
 <body>
-<div class="js-pageOpen"></div>
+<div class="js-pageOpen">
+  <img src="<?php bloginfo('template_directory'); ?>/images/loading.gif">
+</div>
 <div class="top-siteName">
   <strong>AMETRINE</strong>
 </div>
