@@ -21,7 +21,7 @@
 
 // ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'ametrine_db_main');
+define('DB_NAME', 'ametrine_main_db');
 
 /** MySQL データベースのユーザー名 */
 define('DB_USER', 'ametrine');
@@ -64,7 +64,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'wpebc398';
+$table_prefix  = 'wpf08636';
 
 /**
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
