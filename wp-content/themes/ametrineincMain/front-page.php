@@ -17,7 +17,7 @@
   </div>
 
   <div class="loop-css">
-    <img src="/test/wp-content/uploads/2018/11/bg_img.png"><img src="/test/wp-content/uploads/2018/11/bg_img.png">
+  <img src="<?php bloginfo('template_directory'); ?>/images/image.png"><img src="<?php bloginfo('template_directory'); ?>/images/image.png">
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
