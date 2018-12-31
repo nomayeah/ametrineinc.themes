@@ -27,11 +27,7 @@ define('DB_NAME', 'ametrine_db_main');
 define('DB_USER', 'ametrine');
 
 /** MySQL データベースのパスワード */
-<<<<<<< HEAD
 define('DB_PASSWORD', 'ametrine-1234');
-=======
-define('DB_PASSWORD', 'asdf1234');
->>>>>>> 9fa9cec36e6f72c3023e33e20a36c10b2181455c
 
 /** MySQL のホスト名 */
 define('DB_HOST', 'mysql728.db.sakura.ne.jp');
@@ -68,11 +64,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-<<<<<<< HEAD
 $table_prefix  = 'wp0d31c4';
-=======
-$table_prefix  = 'wpf84a33';
->>>>>>> 9fa9cec36e6f72c3023e33e20a36c10b2181455c
 
 /**
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
