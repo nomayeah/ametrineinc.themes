@@ -5,7 +5,7 @@
 get_header(); ?>
 
 <div class="js-pageOpen">
-  <img src="<?php bloginfo('template_directory'); ?>/images/loading.gif">
+  <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
 </div>
 
 <div class="top-siteName">

@@ -5,7 +5,7 @@
   <div class="js-sectionLogo__partsTop"></div>
   <h1 class="top-logo">
     <span class="js-sectionLogo__partsLeft"></span>
-    <img src="<?php bloginfo('template_directory'); ?>/images/topLogo.png" alt="Ametrine.incのサイトロゴ">
+    <img src="<?php bloginfo('template_directory'); ?>/images/top/topLogo.png" alt="Ametrine.incのサイトロゴ">
     <span class="js-sectionLogo__partsRight"></span>
     </h1>
   <div class="js-sectionLogo__partsBottom"></div>
@@ -17,7 +17,7 @@
   </div>
 
   <div class="loop-css">
-  <img src="<?php bloginfo('template_directory'); ?>/images/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll.png">
+  <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
