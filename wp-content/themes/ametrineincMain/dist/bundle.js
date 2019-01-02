@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("document.addEventListener('wpcf7mailsent', function (event) {\n  location = '/?page_id=64';\n}, false);\n$(function () {\n  var target1 = $('.wpcf7c-elm-step1'),\n      target2 = $('.wpcf7c-elm-step2');\n  $(target1).on('click', function () {\n    setTimeout(function () {\n      var flag = $('.fm-content').hasClass('invalid');\n\n      if (flag) {\n        console.log(true);\n      } else {\n        console.log(false);\n      }\n\n      ;\n    }, 100);\n  });\n  $(target2).on('click', function () {\n    var flag = $('.fm-content').hasClass('invalid');\n\n    if (flag) {\n      return;\n    } else {\n      console.log(false);\n    }\n\n    ;\n  });\n});\n\n//# sourceURL=webpack:///./src/js/form/mix.js?");
+eval("document.addEventListener('wpcf7mailsent', function (event) {\n  location = '/?page_id=64';\n}, false);\n$(function () {\n  var target1 = $('.wpcf7c-elm-step2');\n  $(target1).on('click', function () {\n    $('form').removeClass('custom-wpcf7c-confirmed');\n  });\n});\n\n//# sourceURL=webpack:///./src/js/form/mix.js?");
 
 /***/ }),
 
