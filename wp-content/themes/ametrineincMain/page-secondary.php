@@ -13,22 +13,16 @@ get_header(); ?>
 </div>
 
 <section class="sec-body">
-<?php 
-  if (have_posts()):
-    while (have_posts()) :
-      the_post();
-      the_content();
-    endwhile;
-  endif;
-?>
+  <?php if (have_posts()): while (have_posts()): the_post(); ?>
+    <?php the_content(); ?>
+  <?php endwhile; endif; ?>
 </section>
 
 <?php
   $page_id = 48;
   $content = get_page($page_id);
-  echo do_shortcode(
-    $post->post_content
-); ?>
+  echo $content -> post_content;
+?>
 
 
 <?php get_footer(); ?>
