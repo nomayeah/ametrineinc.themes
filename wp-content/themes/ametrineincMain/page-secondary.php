@@ -8,15 +8,15 @@ get_header(); ?>
   <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
 </div>
 
-<div class="top-siteName">
-  <strong>AMETRINE</strong>
-</div>
+<main >
+  <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
-<section class="sec-body">
-  <?php if (have_posts()): while (have_posts()): the_post(); ?>
-    <?php the_content(); ?>
-  <?php endwhile; endif; ?>
-</section>
+  <section class="sec-body">
+    <?php if (have_posts()): while (have_posts()): the_post(); ?>
+      <?php the_content(); ?>
+    <?php endwhile; endif; ?>
+  </section>
+</main>
 
 <?php $page_id = 48; $content = get_page($page_id); echo $content -> post_content; ?>
 

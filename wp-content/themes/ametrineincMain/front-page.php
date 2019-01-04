@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 
 <header class="js-scrollLogo__parts1">
@@ -12,12 +11,10 @@
 </header>
 
 <main class="js-scrollLogo__parts2">
-  <div class="top-siteName">
-    <strong>AMETRINE</strong>
-  </div>
+  <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
   <div class="loop-css">
-  <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
+    <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
