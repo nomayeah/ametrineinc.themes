@@ -29,12 +29,7 @@
   </section>
 
   <section class="top-sec__standard">
-    <?php
-      $page_id = 14;
-      $content = get_page($page_id);
-      echo do_shortcode(
-        $post->post_content
-    ); ?>
+    <?php $page_id = 14; $content = get_page($page_id); echo $content -> post_content; ?>
   </section>
 </main>
 
