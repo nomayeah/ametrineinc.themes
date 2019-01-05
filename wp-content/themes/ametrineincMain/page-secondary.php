@@ -11,7 +11,6 @@ get_header(); ?>
 <main >
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
-  
   <?php if (have_posts()): while (have_posts()): the_post(); ?>
     <?php the_content(); ?>
   <?php endwhile; endif; ?>
