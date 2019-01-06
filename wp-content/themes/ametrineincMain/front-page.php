@@ -18,16 +18,23 @@
     <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
-  <h2 class="top-sec__title"><?php $page_id = 36; $content = get_page($page_id); echo $content->post_title; ?></h2> 
   <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
 
   <section class="top-sec__standard co">
-    <h2><?php $page_id = 22; $content = get_page($page_id); echo $content->post_title; ?></h2>
     <div class="top-sec__block">
       <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
     </div>
   </section>
+  <?php
+    $pages = get_pages([
+      'meta_key'   => '_wp_page_template',
+      'meta_value' => '[page-template-file].php',
+    ]);
 
+    foreach($pages as $page){
+      echo "{$page->ID}: {$page->post_title}<br>";
+    }
+  ?>
 </main>
 
 <?php get_footer(); ?>
