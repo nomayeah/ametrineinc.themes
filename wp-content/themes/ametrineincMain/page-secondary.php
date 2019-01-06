@@ -18,6 +18,17 @@ get_header(); ?>
 
 <?php $page_id = 48; $content = get_page($page_id); echo $content -> post_content; ?>
 
-<?php get_the_ID(); ?>aaa
+<?php while (have_posts()) : the_post(); ?>
+  <?php
+    // ポスト情報の取得
+    $ID = $post->ID; // 投稿ID
+    $title = $post->post_title; // タイトル
+    $content = $post->post_content; // 投稿内容
+    $slug = $post->post_name; // スラッグ
+    $parent = $post->post_parent; // 親投稿の有無
+    $uri = get_page_uri($ID);
+  ?>
+  <?php echo( $post->ID ); ?> <?php echo( $ID ); ?>
+<?php endwhile; ?>bbb
 
 <?php get_footer(); ?>
