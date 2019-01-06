@@ -20,7 +20,6 @@ get_header(); ?>
 
 <script>
   var page_id = <?php while (have_posts()): the_post(); ?><?php echo( $post->ID ); ?><?php endwhile; ?>;
-  console.log(page_id);
 </script>
 
 <?php get_footer(); ?>
