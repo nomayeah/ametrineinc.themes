@@ -18,4 +18,6 @@ get_header(); ?>
 
 <?php $page_id = 48; $content = get_page($page_id); echo $content -> post_content; ?>
 
+<?php get_the_ID(); ?>
+
 <?php get_footer(); ?>
