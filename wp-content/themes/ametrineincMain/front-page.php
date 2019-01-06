@@ -5,7 +5,6 @@
   <h1 class="top-logo">
     <span class="js-sectionLogo__partsLeft"></span>
     <img src="<?php bloginfo('template_directory'); ?>/images/top/topLogoSP.png" class="device-sp" alt="Ametrine.incのサイトロゴ">
-    <img src="<?php bloginfo('template_directory'); ?>/images/top/topLogoPC.png" class="device-pc" alt="Ametrine.incのサイトロゴ">
     <span class="js-sectionLogo__partsRight"></span>
     </h1>
   <div class="js-sectionLogo__partsBottom"></div>
