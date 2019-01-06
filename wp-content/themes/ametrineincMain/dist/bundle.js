@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$('.bl-list a').each(function () {\n  var $href = $(this).attr('href').replace('/?page_id=', '');\n  console.log($href);\n\n  if ($href == page_id) {\n    $(this).parent().css('display', 'none');\n  }\n});\n\n//# sourceURL=webpack:///./src/js/businessList/mix.js?");
+eval("$(function () {\n  $('.bl-list a').each(function () {\n    var $href = $(this).attr('href').replace('/?page_id=', '');\n    console.log($href);\n\n    if ($href == page_id) {\n      $(this).parent().css('display', 'none');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/businessList/mix.js?");
 
 /***/ }),
 
