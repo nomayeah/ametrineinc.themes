@@ -4,7 +4,7 @@
   <div class="js-sectionLogo__partsTop"></div>
   <h1 class="top-logo">
     <span class="js-sectionLogo__partsLeft"></span>
-    <span class="js-sectionLogo__partsMain"><img src="<?php bloginfo('template_directory'); ?>/images/top/topLogo.png" alt="Ametrine.incのサイトロゴ"></span>
+    <span class="top-logo__main"><img src="<?php bloginfo('template_directory'); ?>/images/top/topLogo.png" alt="Ametrine.incのサイトロゴ"></span>
     <span class="js-sectionLogo__partsRight"></span>
     </h1>
   <div class="js-sectionLogo__partsBottom"></div>
