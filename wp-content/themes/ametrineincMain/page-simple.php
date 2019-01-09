@@ -8,7 +8,7 @@ get_header(); ?>
   <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
 </div>
 
-<main class="fm-main">
+<main class="simple-main">
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
   <?php if (have_posts()): while (have_posts()): the_post(); ?>
