@@ -13,7 +13,7 @@ get_header(); ?>
   if ( $_SERVER['HTTP_REFERER'] == home_url() ) {
     echo 'true';
   } else {
-    echo 'false';
+    echo 'false' . 'falseの' . $_SERVER['HTTP_REFERER'] . 'falseの' . home_url() ;
   }
 ?>
 <main>
