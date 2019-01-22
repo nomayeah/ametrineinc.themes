@@ -9,7 +9,7 @@ function footerScripts() {
     array(),
     date('YmdHis', filemtime( get_template_directory_uri() . '/dist/jquery3.0.0.js' )),
     false,
-    true
+    false
   );
   wp_enqueue_script( 
     'bundle',
@@ -17,7 +17,7 @@ function footerScripts() {
     array( 'jquery.3.0.0' ),
     date('YmdHis', filemtime( get_template_directory_uri() . '/dist/bundle.js' )),
     false,
-    true
+    false
   );
 }
 add_action( 'wp_enqueue_scripts', 'footerScripts' );
