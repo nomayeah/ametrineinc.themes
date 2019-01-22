@@ -15,7 +15,7 @@
 
   <div class="loop-css">
     <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
-    <div class="loop-message" style="display: none;"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
+    <div class="loop-message"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
   </div>
 
   <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
