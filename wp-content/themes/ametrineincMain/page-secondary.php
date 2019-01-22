@@ -10,7 +10,11 @@ get_header(); ?>
 
 
 <?php
-  echo $_SERVER['HTTP_REFERER'] == home_url();
+  if ( $_SERVER['HTTP_REFERER'] == home_url() ) {
+    echo 'true';
+  } else {
+    echo 'false';
+  }
 ?>
 <main>
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
