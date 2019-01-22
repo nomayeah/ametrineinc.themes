@@ -4,12 +4,12 @@
  */
 get_header(); ?>
 
-<?php echo $_SERVER['HTTP_REFERER']; ?>
-
 <div class="js-pageOpen">
   <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
 </div>
 
+
+<?php echo $_SERVER['HTTP_REFERER']; ?>aaa
 <main>
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
