@@ -4,6 +4,8 @@
  */
 get_header(); ?>
 
+<?php echo $_SERVER['HTTP_REFERER']; ?>
+
 <div class="js-pageOpen">
   <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
 </div>
