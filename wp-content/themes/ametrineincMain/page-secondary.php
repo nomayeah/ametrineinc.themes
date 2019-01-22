@@ -4,16 +4,15 @@
  */
 get_header(); ?>
 
-<div class="js-pageOpen">
-  <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
-</div>
-
-
 <?php
   if ( $_SERVER['HTTP_REFERER'] == home_url('/') ) {
-    echo 'true';
+  ?>
+    <div class="js-pageOpen">
+    <img src="<?php bloginfo('template_directory'); ?>/images/second/loading.gif">
+    </div>
+  <?php
   } else {
-    echo 'false' . 'falseの' . $_SERVER['HTTP_REFERER'] . 'falseの' . home_url() ;
+    '';
   }
 ?>
 <main>
