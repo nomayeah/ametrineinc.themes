@@ -10,7 +10,7 @@ get_header(); ?>
 
 
 <?php
-  if ( $_SERVER['HTTP_REFERER'] == home_url() ) {
+  if ( $_SERVER['HTTP_REFERER'] == home_url('/') ) {
     echo 'true';
   } else {
     echo 'false' . 'falseの' . $_SERVER['HTTP_REFERER'] . 'falseの' . home_url() ;
