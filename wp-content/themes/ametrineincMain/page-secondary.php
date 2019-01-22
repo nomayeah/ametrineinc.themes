@@ -10,8 +10,7 @@ get_header(); ?>
 
 
 <?php
-  echo $_SERVER['HTTP_REFERER'] . PHP_EOL;
-  echo home_url();
+  echo $_SERVER['HTTP_REFERER'] == home_url();
 ?>
 <main>
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
