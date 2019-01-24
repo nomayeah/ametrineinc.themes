@@ -10,7 +10,7 @@
   <div class="js-sectionLogo__partsBottom"></div>
 </header>
 
-<main class="js-scrollLogo__parts2">
+<main class="js-scrollLogo__parts2" style="transition: all 0s">
   <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
   <div class="loop-css">
