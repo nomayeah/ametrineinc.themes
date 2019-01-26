@@ -838,4 +838,5 @@ $(window).load(function(){
     });
           
   });
+  console.log("done");
 });
