@@ -8,7 +8,7 @@
     $(window).load(function(){
       $(function() {
         $.scrollify({
-          section : "section.test",
+          section : "section.js-scrollArea",
           sectionName : "section-name",
           interstitialSection : "",
           easing: "easeOutExpo",
