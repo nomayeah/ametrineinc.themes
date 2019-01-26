@@ -12,7 +12,25 @@
     <div class="js-sectionLogo__partsBottom"></div>
   </header>
 </section>
-  <section class="js-scrollArea" style="background-color: #ccf;">セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br>セクション2<br></section>
+<section class="js-scrollArea">
+  <main class="js-scrollLogo__parts2">
+    <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
+
+    <div class="loop-css">
+      <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
+      <div class="loop-message" style="transition: all 0s"><span>AMETRINEは</span><span>”繋ぎ”をつくる</span></div>
+    </div>
+
+    <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
+
+    <section class="top-sec__standard co">
+      <div class="top-sec__block">
+        <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
+      </div>
+    </section>
+
+  </main>
+</section>
   
   <footer>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br></footer>
 
