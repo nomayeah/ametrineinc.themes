@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<body>
 <section class="js-scrollArea">
   <header class="js-scrollLogo__parts1">
     <div class="js-sectionLogo__partsTop"></div>
@@ -12,6 +11,7 @@
     <div class="js-sectionLogo__partsBottom"></div>
   </header>
 </section>
+
 <section class="js-scrollArea">
   <main class="js-scrollLogo__parts2">
     <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
@@ -31,8 +31,5 @@
 
   </main>
 </section>
-  
-  <footer>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br>フッター<br></footer>
-
 
 <?php get_footer(); ?>
