@@ -1,8 +1,9 @@
     <footer>
       <div class="ft-title"><img src="<?php bloginfo('template_directory'); ?>/images/top/logoText.png" alt=""></div>
       <ul class="ft-list">
-        <li><a href="/">TOP</a></li>
         <li><a href="/?page_id=122">個人情報保護方針</a></li>
+      </ul>
+      <ul class="ft-list">
         <li><a href="/?page_id=8">企業コンサルティング</a></li>
         <li><a href="/?page_id=79">人材コンサルティング</a></li>
         <li><a href="/?page_id=81">イベント事業</a></li>
