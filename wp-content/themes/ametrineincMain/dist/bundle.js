@@ -138,7 +138,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $(window).on('load', function () {\n    var dir = location.href.split(\"/\")[3];\n\n    if (dir != '' && localStorage.getItem('linkAction') == 0) {\n      setTimeout(function () {\n        $('.js-pageOpen').addClass('js-open');\n      }, 1000);\n      setTimeout(function () {\n        $('.js-pageOpen').css('display', 'none');\n      }, 2000);\n      localStorage.setItem('linkAction', 1);\n    } else {\n      $('.js-pageOpen').css('display', 'none');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
+eval("$(function () {\n  $(window).on('load', function () {\n    var dir = location.href.split(\"/\")[3];\n\n    if (dir != '' && localStorage.getItem('linkAction') == 0) {\n      setTimeout(function () {\n        $('.js-pageOpen').addClass('js-open');\n      }, 500);\n      setTimeout(function () {\n        $('.js-pageOpen').css('display', 'none');\n      }, 1000);\n      localStorage.setItem('linkAction', 1);\n    } else {\n      $('.js-pageOpen').css('display', 'none');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
 
 /***/ }),
 
