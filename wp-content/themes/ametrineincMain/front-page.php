@@ -10,22 +10,23 @@
   <div class="js-sectionLogo__partsBottom"></div>
 </header>
 
-<main class="js-scrollLogo__parts2 active">
-  <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
+<main class="js-scrollLogo__parts2">
+  <div class="js-scrollLogo__part3">
+    <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
-  <div class="loop-css">
-    <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
-    <div class="loop-message" style="transition: all 0s"><span>AMETRINEは</span><strong>”繋ぎ”</strong><span>をつくる</span></div>
-  </div>
-
-  <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
-
-  <section class="top-sec__standard co">
-    <div class="top-sec__block">
-      <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
+    <div class="loop-css">
+      <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
+      <div class="loop-message" style="transition: all 0s"><span>AMETRINEは</span><strong>”繋ぎ”</strong><span>をつくる</span></div>
     </div>
-  </section>
 
+    <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
+
+    <section class="top-sec__standard co">
+      <div class="top-sec__block">
+        <?php $page_id = 22; $content = get_page($page_id); echo $content->post_content; ?>
+      </div>
+    </section>
+  </div>
 </main>
 
 <?php get_footer(); ?>
