@@ -11,7 +11,7 @@
 </header>
 
 <main class="js-scrollLogo__parts2">
-  <div class="js-scrollLogo__part3">
+  <div class="js-scrollLogo__parts3">
     <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
     <div class="loop-css">
