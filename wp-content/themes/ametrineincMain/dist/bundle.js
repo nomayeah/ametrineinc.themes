@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $('.bl-list a').each(function () {\n    var $href = $(this).attr('href').replace('/?page_id=', ''),\n        target1,\n        target2;\n\n    if ($href == page_id) {\n      $(this).parent().addClass('hidden');\n    }\n\n    for (var i = 0; i <= $('.bl-list li').length; i++) {\n      target1 = $('.bl-list li:nth-of-type(' + i + ')');\n\n      if ($(dd).hasClass('hidden')) {\n        var target2 = i - 1;\n        $('.bl-list li:nth-of-type(' + target2 + ')').css({\n          'border-bottom': '0'\n        });\n      } else {\n        return;\n      }\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/businessList/mix.js?");
+eval("$(function () {\n  $('.bl-list a').each(function () {\n    var $href = $(this).attr('href').replace('/?page_id=', ''),\n        target1,\n        target2;\n\n    if ($href == page_id) {\n      $(this).parent().addClass('hidden');\n    }\n  });\n\n  for (var i = 0; i <= $('.bl-list li').length; i++) {\n    target1 = $('.bl-list li:nth-of-type(' + i + ')');\n\n    if ($(dd).hasClass('hidden')) {\n      var target2 = i - 1;\n      $('.bl-list li:nth-of-type(' + target2 + ')').css({\n        'border-bottom': '0'\n      });\n    } else {\n      return;\n    }\n  }\n});\n\n//# sourceURL=webpack:///./src/js/businessList/mix.js?");
 
 /***/ }),
 
