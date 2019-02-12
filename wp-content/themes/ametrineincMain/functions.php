@@ -1,6 +1,14 @@
 <?php
 add_filter('show_admin_bar', '__return_false');
 
+// titleタグ出力
+add_theme_support( 'title-tag' );
+function wp_document_title_separator( $separator ) {
+  $separator = '|';
+  return $separator;
+}
+add_filter( 'document_title_separator', 'wp_document_title_separator' );
+
 // js読み込み
 function footerScripts() {
   wp_enqueue_script( 
