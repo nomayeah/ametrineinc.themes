@@ -14,8 +14,11 @@
   <div class="js-scrollLogo__parts3">
     <?php $page_id = 74; $content = get_page($page_id); echo $content -> post_content; ?>
 
-    <div class="loop-css">
-      <img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png">
+    <div class="loop-img">
+      <div class="loop-img__body">
+        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
+        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
+      </div>
       <div class="loop-message" style="transition: all 0s"><span>”繋ぐ”コンサルティング</span><strong>AMETRINE</strong></div>
     </div>
 

@@ -127,7 +127,7 @@ eval("$(function () {\n  var dir = location.href.split(\"/\")[3];\n\n  if (dir =
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./linkAction/mix */ \"./src/js/linkAction/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_linkAction_mix__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pageOpen_mix__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pageOpen/mix */ \"./src/js/pageOpen/mix.js\");\n/* harmony import */ var _form_mix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./form/mix */ \"./src/js/form/mix.js\");\n/* harmony import */ var _form_mix__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_form_mix__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _businessList_mix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./businessList/mix */ \"./src/js/businessList/mix.js\");\n/* harmony import */ var _businessList_mix__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_businessList_mix__WEBPACK_IMPORTED_MODULE_5__);\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scrollLogo_mix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollLogo/mix */ \"./src/js/scrollLogo/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./linkAction/mix */ \"./src/js/linkAction/mix.js\");\n/* harmony import */ var _linkAction_mix__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_linkAction_mix__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pageOpen_mix__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pageOpen/mix */ \"./src/js/pageOpen/mix.js\");\n/* harmony import */ var _form_mix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./form/mix */ \"./src/js/form/mix.js\");\n/* harmony import */ var _form_mix__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_form_mix__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _businessList_mix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./businessList/mix */ \"./src/js/businessList/mix.js\");\n/* harmony import */ var _businessList_mix__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_businessList_mix__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _slick_mix__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./slick/mix */ \"./src/js/slick/mix.js\");\n/* harmony import */ var _slick_mix__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_slick_mix__WEBPACK_IMPORTED_MODULE_7__);\n // 消さないでね。css出力用\n// jsはこの下に書く感じ\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
@@ -138,7 +138,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $(window).on('load', function () {\n    var dir = location.href.split(\"/\")[3];\n\n    if (dir != '' && localStorage.getItem('linkAction') == 0) {\n      setTimeout(function () {\n        $('.js-pageOpen').addClass('js-open');\n      }, 500);\n      setTimeout(function () {\n        $('.js-pageOpen').css('display', 'none');\n      }, 1500);\n      localStorage.setItem('linkAction', 1);\n    } else {\n      $('.js-pageOpen').css('display', 'none');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
+eval("$(function () {\n  $(window).on('load', function () {\n    var dir = location.href.split(\"/\")[3];\n\n    if (dir != '' && localStorage.getItem('linkAction') == 0) {\n      setTimeout(function () {\n        $('.js-pageOpen').addClass('js-open');\n      }, 500);\n      setTimeout(function () {\n        $('.js-pageOpen').css('display', 'none');\n      }, 1000);\n      localStorage.setItem('linkAction', 1);\n    } else {\n      $('.js-pageOpen').css('display', 'none');\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/pageOpen/_pageOpen.js?");
 
 /***/ }),
 
@@ -185,6 +185,17 @@ eval("/**\n * Copyright 2016 Google Inc. All Rights Reserved.\n *\n * Licensed u
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _intersectionObserver__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_intersectionObserver */ \"./src/js/scrollLogo/_intersectionObserver.js\");\n/* harmony import */ var _intersectionObserver__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_intersectionObserver__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _custom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_custom */ \"./src/js/scrollLogo/_custom.js\");\n/* harmony import */ var _custom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_custom__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/js/scrollLogo/mix.js?");
+
+/***/ }),
+
+/***/ "./src/js/slick/mix.js":
+/*!*****************************!*\
+  !*** ./src/js/slick/mix.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(function () {\n  $('.loop_css').slick({\n    arrows: false,\n    autoplay: true,\n    autoplaySpeed: 0,\n    cssEase: 'linear',\n    speed: 30000\n  });\n});\n\n//# sourceURL=webpack:///./src/js/slick/mix.js?");
 
 /***/ }),
 
