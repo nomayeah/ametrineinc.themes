@@ -195,7 +195,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _int
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  $('.loop_img__body').slick({\n    arrows: false,\n    autoplay: true,\n    autoplaySpeed: 0,\n    cssEase: 'linear',\n    speed: 30000\n  });\n});\n\n//# sourceURL=webpack:///./src/js/slick/mix.js?");
+eval("$(function () {\n  $('.loop-img__body').slick({\n    arrows: false,\n    autoplay: true,\n    autoplaySpeed: 0,\n    cssEase: 'linear',\n    speed: 30000\n  });\n  console.log(\"test\");\n});\n\n//# sourceURL=webpack:///./src/js/slick/mix.js?");
 
 /***/ }),
 
