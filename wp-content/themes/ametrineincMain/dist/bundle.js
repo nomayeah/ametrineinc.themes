@@ -115,7 +115,7 @@ eval("document.addEventListener('wpcf7mailsent', function (event) {\n  location 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  console.log(\"linkAction\");\n  var dir = location.href.split(\"/\")[3];\n\n  if (dir == '') {\n    localStorage.setItem('linkAction', 0);\n  }\n\n  $('.js-linkAction').on('click', function () {\n    if (dir == '') {\n      $(this).toggleClass('action');\n      var link = document.getElementById('ul').children[0].getElementsByTagName('a')[0].getAttribute('href');\n      localStorage.setItem('reloadFlg', 1);\n      console.log(\"true\");\n      setTimeout(function () {\n        window.location.href = link;\n      }, 500);\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
+eval("$(function () {\n  console.log(\"linkAction\");\n  var dir = location.href.split(\"/\")[3];\n\n  if (dir == '') {\n    localStorage.setItem('linkAction', 0);\n  }\n\n  $('.js-linkAction').on('click', function () {\n    localStorage.setItem('reloadFlg', 1);\n    console.log(\"true\");\n\n    if (dir == '') {\n      $(this).toggleClass('action');\n      var link = document.getElementById('ul').children[0].getElementsByTagName('a')[0].getAttribute('href');\n      setTimeout(function () {\n        window.location.href = link;\n      }, 500);\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
 
 /***/ }),
 
