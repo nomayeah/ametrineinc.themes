@@ -8,6 +8,7 @@
     <span class="js-sectionLogo__partsRight"></span>
     </h1>
   <div class="js-sectionLogo__partsBottom"></div>
+  <div class="js-scrollBtn"></div>
 </header>
 
 <main class="js-scrollLogo__parts2">
