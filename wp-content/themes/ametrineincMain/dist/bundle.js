@@ -115,7 +115,7 @@ eval("document.addEventListener('wpcf7mailsent', function (event) {\n  location 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {\n  var dir = location.href.split(\"/\")[3];\n  setInterval(function () {\n    if (dir == '' && localStorage.getItem('reloadFlg') == 1) {\n      localStorage.setItem('reloadFlg', 0);\n      location.reload();\n    } else if (dir == '') {\n      localStorage.setItem('linkAction', 0);\n    } else {\n      return;\n    }\n  }, 600);\n  $('.js-linkAction').on('click', function (e) {\n    var target = $(this);\n    e.preventDefault();\n\n    if (dir == '') {\n      $(target).toggleClass('action');\n      setTimeout(function () {\n        var link = $(target).attr('href');\n        localStorage.setItem('reloadFlg', 1);\n        console.log(link);\n        window.location.href = link;\n      }, 400);\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
+eval("$(function () {\n  var dir = location.href.split(\"/\")[3];\n  setInterval(function () {\n    if (dir == '' && localStorage.getItem('reloadFlg') == 1) {\n      localStorage.setItem('reloadFlg', 0);\n      location.reload();\n    } else if (dir == '') {\n      localStorage.setItem('linkAction', 0);\n    } else {\n      return;\n    }\n  }, 600);\n  $('.js-linkAction').on('click', function (e) {\n    var target = $(this);\n    e.preventDefault();\n\n    if (dir == '') {\n      $(target).toggleClass('action');\n      setTimeout(function () {\n        var link = $(target).attr('href');\n        localStorage.setItem('reloadFlg', 1);\n        console.log(link);\n        window.location.href = link;\n      }, 300);\n    }\n  });\n});\n\n//# sourceURL=webpack:///./src/js/linkAction/mix.js?");
 
 /***/ }),
 
