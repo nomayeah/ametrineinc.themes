@@ -9,6 +9,9 @@ function wp_document_title_separator( $separator ) {
 }
 add_filter( 'document_title_separator', 'wp_document_title_separator' );
 
+// thumbnail表示
+add_theme_support('post-thumbnails');
+
 // js読み込み
 function footerScripts() {
   wp_enqueue_script( 
