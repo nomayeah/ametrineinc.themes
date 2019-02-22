@@ -20,7 +20,10 @@
         <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
         <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
       </div>
-      <div class="loop-message" style="transition: all 0s"><span>”繋ぐ”コンサルティング</span><strong>AMETRINE</strong></div>
+      <div class="loop-message" style="transition: all 0s">
+        <img src="<?php bloginfo('template_directory'); ?>/images/top/topTitleMessage.svg">
+        <!-- <span>「繋ぐ」コンサルティング</span><strong>AMETRINE</strong> -->
+      </div>
     </div>
 
     <?php $page_id = 36; $content = get_page($page_id); echo $content->post_content; ?>
