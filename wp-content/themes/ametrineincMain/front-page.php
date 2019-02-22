@@ -17,8 +17,8 @@
 
     <div class="loop-img">
       <div class="loop-img__body">
-        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
-        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.png"></div>
+        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.jpg"></div>
+        <div><img src="<?php bloginfo('template_directory'); ?>/images/scroll/scroll.jpg"></div>
       </div>
       <div class="loop-message" style="transition: all 0s">
         <img src="<?php bloginfo('template_directory'); ?>/images/top/topTitleMessage.svg">

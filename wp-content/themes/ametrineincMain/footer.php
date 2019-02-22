@@ -8,6 +8,7 @@
         <li><a href="/?page_id=87">地方創生・活性化事業</a></li>
         <li><a href="/?page_id=122">個人情報保護方針</a></li>
         <li><a href="/?page_id=22">会社概要</a></li>
+        <li><a href="/?page_id=30">お問い合わせ</a></li>
       </ul>
       <div class="copy">AMETRINE All rights reserved.</div>
     </footer>
